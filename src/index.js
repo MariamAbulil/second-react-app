@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+// For more code readability move the css import to be last import after side import
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  // can we remove <React.StrictMode>? and What the benefit of using <React.StrictMode>?
+  <React.StrictMode> 
     <App />
   </React.StrictMode>
 );
