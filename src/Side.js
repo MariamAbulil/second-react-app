@@ -1,8 +1,11 @@
+
 import MyBtn from "./MyBtn";
+import "./Slide.css"
 const Side = () => {
   return (
       // Move all inline styles to be in css file, use inline style just in special cases
-    <div style={{margin:"25px",border:"2px solid red"}}>
+      //I add to the Side.css
+    <div classNamee="div1">
       <MyBtn/>
       <MyBtn/>
       <MyBtn/>

@@ -1,8 +1,9 @@
-import logo from "./logo.svg"; // Always clean the code from unused codes
-import "./App.css"; // For more code readability move the css import to be last import after side import
+// Always clean the code from unused codes
+
 import Header from "./Header";
 import Post from "./Post";
 import Side from "./Side";
+import "./App.css"; // For more code readability move the css import to be last import after side import
 function App() {
   return (
     <div className="App">
@@ -14,16 +15,14 @@ function App() {
          
         }}
       >
-        <div
-          style={{ display: "flex",  width: "70%" }} // Move all inline styles to be in css file, use inline style just in special cases
-        >
+        <div className="divContainer">{/*  // Move all inline styles to be in css file, use inline style just in special cases */}
           {/* for  */}
-          <div style={{ width: "70%" }}>
+          <div className="div1">
             <Post />
             <Post />
             <Post />
           </div>
-          <div style={{ display: "flex", width: "30%" }}>
+          <div className="div2">
             <Side />
            
           </div>

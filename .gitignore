@@ -1,4 +1,7 @@
 # What the benefit of this file?
+#Answer: When I run npm install, VS Code (or the terminal) creates folders like node_modules that contain the installed libraries. These folders should not be pushed to GitHub because they can be very large and take a lot of time to upload and download. Therefore, we add such folders (like node_modules, etc.) to the .gitignore file to prevent them from being included in version control.
+
+
 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 

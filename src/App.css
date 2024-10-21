@@ -20,7 +20,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin); /* Why you use vmin? */
+  font-size: calc(10px + 2vmin); /* Why you use vmin? it auto add ,I dont add them but its for make the font stable for diff screen and the min is 10px */
   color: white;
 }
 
@@ -35,4 +35,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+.divContainer{
+  display: flex;
+    width: 70%
+}
+.div1{
+  width: 70%;
+}
+.div2{
+  display: flex;
+   width: 30%;
 }
